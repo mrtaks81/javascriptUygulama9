@@ -20,9 +20,42 @@
 <div class="cevap">
     <span class="cevapNumarasi">Cevap 1:</span>
         <script type="text/javascript">
-        /**
-         * Sorunun cevabını bu yorumdan sonra yazınız.
-         */
+            var s1;
+            var tahmin=0;
+            var sayac=0;
+           
+            <button onclick="sayiUret();">Sayı üret</button>
+            sayi=Math.round(Math.random()*100);
+                     
+            function sayiUret() {                         
+            for (var i=1, i>=5, i++)
+            {
+               tahmin=document.getElementById("tahmin")value;
+                s1++;
+                if sayi>tahmin
+                {
+                    document.write("tahmininiz saydıdan küçük");
+                }
+                else if sayi<tahmin
+                {
+                    document.write("tahmininiz saydıdan büyük");
+                }
+                else if sayi=tahmin
+                {
+                    document.write("tahmininiz sdoğru");
+                }
+                else
+                {
+                    document.write("hakknız doldu");
+                }
+                
+            }
+            
+            
+            
+            
+            
+            
 
         </script>
     <div class="clearfix"></div>

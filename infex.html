@@ -30,11 +30,12 @@
             <button onclick="sayiUret();">Sayı üret</button>
             sayi=Math.round(Math.random()*100);
                      
-            function sayiUret() {                         
-            for (var i=1, i>=5, i++)
-            {
-               tahmin=document.getElementById("tahmin")value;
-                s1++;
+            do {
+                sayac++;
+                tahmin = Number(prompt("Sayı tahmininiz nedir ? "));
+                  onsole.log(tahmin);
+                if (tahmin === 0) {
+                alert("Oyundan çıktınız");
                 if sayi>tahmin
                 {
                     document.write("tahmininiz saydıdan küçük");
